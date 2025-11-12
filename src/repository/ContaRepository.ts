@@ -1,6 +1,6 @@
 import { Conta } from "../model/Conta";
 
-export interface contaRepository {
+export interface ContaRepository {
 
     //CRUD da conta
     procurarPorNumero(numero: number): void;
